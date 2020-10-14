@@ -1,7 +1,7 @@
 import numpy as np
 import cv2  #importing package
 
-cap = cv2.VideoCapture('vtest.avi') #taking video from stroage or you can take input from webcam by replacing name to 0
+cap = cv2.VideoCapture(0) #taking video from stroage or you can take input from webcam by replacing name to 0
 
 ret,frame1 = cap.read()
 ret,frame2 = cap.read()
